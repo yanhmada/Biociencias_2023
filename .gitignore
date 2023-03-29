@@ -1,0 +1,20 @@
+
+# Archivos de Mac
+.DS_Store
+
+# Editor VsCode
+.vscode/
+
+#  Jupyter
+.ipynb_checkpoints
+
+#Files
+onew_a.ipynb
+Mycorrhiza/Artículos/
+Mycorrhiza/Artículos/Phytoremediation assisted by mycorrhizal fungi of a Mexican defunct.pdf
+Mycorrhiza/Artículos/Silva Santos et al 2023.pdf
+Mycorrhiza/Artículos/The combination of compost addition and arbuscular mycorrhizal.pdf
+Mycorrhiza/Artículos/Yang et al 2022 _Heavy Metal Domestication Enhance.pdf
+Mycorrhiza/Jales_micorrizas_Fernanda_Nu.pdf
+Mycorrhiza/Jales_micorrizas_Fernanda_Nu.pptx
+Mycorrhiza/Artículos/Ortega-Larrocea et al 2010.pdf
