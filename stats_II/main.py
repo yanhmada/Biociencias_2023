@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 
 import plotly.io as pio
-pio.renderers.default='notebook'
+pio.renderers.default = "browser"
 from scipy import stats
 from scipy.stats.mstats import kruskal
 
@@ -25,12 +25,17 @@ text = ("Uno de los beneficios de la colonizacion micorrícica es el aumento de 
         "* The Role of the Mycorrhizal Symbiosis in Nutrient Uptake of Plants and the Regulatory "
         "Mechanisms Underlying These Transport Processes")
 
-st.write(text)
+#st.write(text)
+#def get_data() -> pd.DataFrame:
+#        return pd.read_csv(("Base_datos_1.csv"))
 
-def get_data() -> pd.DataFrame:
-    return pd.read_csv(("Base_datos_1.csv"))
+#df_ = get_data()
 
-df_ = get_data()
+@st.cache
+def load_data("./Base_datos_1.csv"):
+    df = pd.read_csv("./Base_datos_1.csv")
+    df = df.fillna("None")
+    return df
 
 
 #Add common name
