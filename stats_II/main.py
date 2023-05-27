@@ -30,7 +30,7 @@ text = ("Uno de los beneficios de la colonizacion micorrícica es el aumento de 
 #df_ = get_data()
 
 @st.cache
-def load_data("Base_datos_1.csv"):
+def load_data("./Base_datos_1.csv"):
     df = pd.read_csv("Base_datos_1.csv")
     df = df.fillna("None")
     return df
