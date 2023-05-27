@@ -28,7 +28,7 @@ st.write(text)
 @st.cache
 
 def get_data() -> pd.DataFrame:
-        return pd.read_csv(("./Base_datos_1.csv"))
+        return pd.read_csv("./Base_datos_1.csv")
 
 df_ = get_data()
 
