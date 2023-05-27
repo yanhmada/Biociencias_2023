@@ -34,7 +34,7 @@ def datos():
 
 # def get_data() -> pd.DataFrame:
 #         return pd.read_csv("./Base_datos_1.csv")
-"""
+
 # Add common name
 dict_common  = {'V. farnesiana':'Vinorama','R. communis':'Ricino'}
 
@@ -95,4 +95,4 @@ statistic, pi_value = stats.kruskal(dfs_vinorama['C'][selected_columns],
                  dfs_vinorama['SN'][selected_columns])
 
 st.write('El p- valor para la prueba Kruskal - wallis es ', pi_value)
-"""
+
