@@ -29,14 +29,14 @@ text = ("Uno de los beneficios de la colonizacion micorrícica es el aumento de 
 
 #df_ = get_data()
 
-data_file_path = "./Base_datos_1.csv"
-df = load_data(data_file_path)
-
 @st.cache
 def load_data(file_path):
     df = pd.read_csv(file_path)
     return df
 
+
+data_file_path = "./Base_datos_1.csv"
+df = load_data(data_file_path)
 
 
 #Add common name
