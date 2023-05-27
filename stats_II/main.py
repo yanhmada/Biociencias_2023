@@ -21,16 +21,19 @@ text = ("Uno de los beneficios de la colonizacion micorrícica es el aumento de 
         "El objetivo de este análisis es revisar el comportamiento"
         "de los elementos contenidos en el experimento.\n\n"
         )
+
 st.write(text)
 
+@ st.cache
 
-@st.cache
+@st.cache_data
+def datos():
+    df_ = pd.read_excel("./Base_datos_1.xlsx")    
+    return df_
+
 
 # def get_data() -> pd.DataFrame:
 #         return pd.read_csv("./Base_datos_1.csv")
-
-df_ = pd.read_csv('./Base_datos_1.csv')
-
 """
 # Add common name
 dict_common  = {'V. farnesiana':'Vinorama','R. communis':'Ricino'}

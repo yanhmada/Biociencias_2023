@@ -1,11 +1,15 @@
 .git ignore
 
 #files
+./Mycorrhiza/Preliminary_Eda.ipynb
+../Mycorrhiza/Archive_micorrizas_y
+hm.zip
+../Mycorrhiza/Archive_micorrizas_yhm/
+../Mycorrhiza/diccionario_Fer.txt
+../Mycorrhiza/Preliminary_Eda.ipynb
+/propiedades_abs.ipynb
 ../Mycorrhiza/Archive_micorrizas_yhm.zip
-    ../Mycorrhiza/Archive_micorrizas_yhm/
-    ../Mycorrhiza/diccionario_Fer.txt
-    ../Mycorrhiza/Preliminary_Eda.ipynb
-
+ 
 # General
 .DS_Store
 Desktop.ini
