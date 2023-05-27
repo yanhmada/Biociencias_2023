@@ -22,7 +22,7 @@ text = ("Uno de los beneficios de la colonizacion micorrícica es el aumento de 
         "tienen mejor absorción de fósforo.\n\n"
         "* The Role of the Mycorrhizal Symbiosis in Nutrient Uptake of Plants and the Regulatory "
         "Mechanisms Underlying These Transport Processes")
-
+""""""
 st.write(text)
 def get_data() -> pd.DataFrame:
         return pd.read_csv(("Base_datos_1.csv"))
@@ -100,5 +100,5 @@ statistic, pi_value = stats.kruskal(dfs_vinorama['C'][selected_columns],
                  dfs_vinorama['CI'][selected_columns], 
                  dfs_vinorama['SN'][selected_columns])
 
-
-st.write("El p- valor para la prueba Kruskal - wallis es ", pi_value)
+st.write('El p- valor para la prueba Kruskal - wallis es ', pi_value)
+""""""
