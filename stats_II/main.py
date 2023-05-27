@@ -18,19 +18,18 @@ with header:
 st.header(':blue[Observar diferencias en colonización ] _micorrícica_ :blue[entre plantas] ')
 
 text = ("Uno de los beneficios de la colonizacion micorrícica es el aumento de nutrientes, "
-        "especialmente fósforo y nitrógeno. Se buscaría probar que los tratamientos con inóculo "
-        "tienen mejor absorción de fósforo.\n\n"
-        "* The Role of the Mycorrhizal Symbiosis in Nutrient Uptake of Plants and the Regulatory "
-        "Mechanisms Underlying These Transport Processes")
+        "El objetivo de este análisis es revisar el comportamiento"
+        "de los elementos contenidos en el experimento.\n\n"
+        )
 st.write(text)
 
 
 @st.cache
 
-def get_data() -> pd.DataFrame:
-        return pd.read_csv("./Base_datos_1.csv")
+# def get_data() -> pd.DataFrame:
+#         return pd.read_csv("./Base_datos_1.csv")
 
-df_ = get_data()
+df_ = pd.read_csv('./Base_datos_1.csv')
 
 """
 # Add common name
