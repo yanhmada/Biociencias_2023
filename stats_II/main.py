@@ -35,7 +35,7 @@ def load_data(file_path):
     return df
 
 
-data_file_path = "./Base_datos_1.csv"
+data_file_path = "https://github.com/yanhmada/Biociencias_2023/blob/0031a6b730eaa7f0af670ad2840565e0a4e57ce4/stats_II/Base_datos_1.csv"
 df = load_data(data_file_path)
 
 
