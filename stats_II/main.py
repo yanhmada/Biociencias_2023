@@ -24,14 +24,15 @@ text = ("Uno de los beneficios de la colonizacion micorrícica es el aumento de 
         "Mechanisms Underlying These Transport Processes")
 st.write(text)
 
-"""
+
 @st.cache
 
 def get_data() -> pd.DataFrame:
-        return pd.read_csv(("Base_datos_1.csv"))
+        return pd.read_csv(("./Base_datos_1.csv"))
 
 df_ = get_data()
 
+"""
 # Add common name
 dict_common  = {'V. farnesiana':'Vinorama','R. communis':'Ricino'}
 
