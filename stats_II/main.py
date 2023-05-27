@@ -23,20 +23,21 @@ text = ("Uno de los beneficios de la colonizacion micorrícica es el aumento de 
         "* The Role of the Mycorrhizal Symbiosis in Nutrient Uptake of Plants and the Regulatory "
         "Mechanisms Underlying These Transport Processes")
 
-#st.write(text)
-#def get_data() -> pd.DataFrame:
-#        return pd.read_csv(("Base_datos_1.csv"))
+st.write(text)
+def get_data() -> pd.DataFrame:
+        return pd.read_csv(("Base_datos_1.csv"))
 
-#df_ = get_data()
+df_ = get_data()
 
-@st.cache
-def load_data(file_path):
-    df = pd.read_csv(file_path)
-    return df
+#@st.cache
+#def load_data(file_path):
+#    df = pd.read_csv(file_path)
+#    return df
 
 
-data_file_path = "https://github.com/yanhmada/Biociencias_2023/blob/0031a6b730eaa7f0af670ad2840565e0a4e57ce4/stats_II/Base_datos_1.csv"
-df = load_data(data_file_path)
+#data_file_path = "Base_datos_1.csv"
+
+#df = load_data(data_file_path)
 
 
 #Add common name
