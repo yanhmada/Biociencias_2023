@@ -35,7 +35,7 @@ def load_data(file_path):
     return df
 
 
-data_file_path = "./Base_datos_1.csv"
+data_file_path = "Base_datos_1.csv"
 df = load_data(data_file_path)
 
 
